@@ -21,7 +21,7 @@ def ninety_nine_problems=(name, artist, genre)
 @genre = genre
 end
 
-def count
+def self.count
 end
 
 def self.artists
