@@ -9,6 +9,8 @@ def initialize(name, artist, genre)
   @artist = artist
   @genre = genre
   @@count += 1
+  @@artists << @name
+  @@genres << @genre
 end
 
 def ninety_nine_problems
