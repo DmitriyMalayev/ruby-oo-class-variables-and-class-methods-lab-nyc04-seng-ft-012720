@@ -17,3 +17,5 @@ def ninety_nine_problems=(name, artist, genre)
 @artist = artist
 @genre = genre
 end
+
+end 
