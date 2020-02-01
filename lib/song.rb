@@ -37,10 +37,11 @@ def self.genres
 end
 
 def self.genre_count
-  @@genres.count
+  @@genres
 end
 
 def self.artist_count
+  @artists
 end
 
 end
