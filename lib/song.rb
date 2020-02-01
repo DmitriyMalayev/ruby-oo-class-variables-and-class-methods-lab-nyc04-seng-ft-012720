@@ -24,10 +24,10 @@ end
 def count
 end
 
-def artists
+def self.artists
 end
 
-def genres
+def self.genres
 end
 
 def self.genre_count
