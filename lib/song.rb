@@ -37,7 +37,7 @@ def self.genres
 end
 
 def self.genre_count
-  @@genres.to_hash
+  @@genres.to_h
 end
 
 def self.artist_count
